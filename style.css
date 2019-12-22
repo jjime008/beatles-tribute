@@ -8,6 +8,19 @@ h1 {
     font-family: bootle;
 }
 
+/*h1 on top of img*/
+h1 {
+    position: absolute;
+    z-index: 1;
+    font-size: 128px;
+    padding-top: 246px;
+    padding-left: 62px;
+}
+
+#img-div {
+    position: relative;
+}
+
 /*image*/
 #image {
     display: block;
@@ -17,3 +30,4 @@ h1 {
 #img-div {
     background: #cccccc;
 }
+
