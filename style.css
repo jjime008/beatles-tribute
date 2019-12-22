@@ -7,3 +7,13 @@
 h1 {
     font-family: bootle;
 }
+
+/*image*/
+#image {
+    display: block;
+    margin-left: 160px;
+}
+
+#img-div {
+    background: #cccccc;
+}
