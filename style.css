@@ -31,3 +31,11 @@ h1 {
     background: #cccccc;
 }
 
+#img-caption {
+    background: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
