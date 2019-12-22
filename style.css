@@ -1,0 +1,9 @@
+/*fonts*/
+@font-face {
+    src: url(fonts/BOOTLE__.TTF);
+    font-family: bootle;
+}
+
+h1 {
+    font-family: bootle;
+}
