@@ -1,4 +1,5 @@
 /*fonts*/
+
 @font-face {
     src: url(fonts/BOOTLE__.TTF);
     font-family: bootle;
@@ -8,7 +9,12 @@ h1 {
     font-family: bootle;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /*h1 on top of img*/
+
 h1 {
     position: absolute;
     z-index: 1;
@@ -22,6 +28,7 @@ h1 {
 }
 
 /*image*/
+
 #image {
     display: block;
     margin-left: 160px;
@@ -34,10 +41,31 @@ h1 {
 #img-caption {
     background: white;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
 }
 
+/*main info*/
+
+#tribute-info {
+    text-align: center;
+    
+}
+
+#description {
+    padding: 20px 100px 20px 100px;
+    line-height: 24px;
+}
+/*#description::after {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 900px;
+    display: block;
+}
+*/
+#facts {
+    text-align: center;
+}
