@@ -51,13 +51,19 @@ h1 {
 /*main info*/
 
 #tribute-info {
-    text-align: center;
-    
+    padding-left: 100px;
+    padding-right: 100px; 
 }
 
 #description {
-    padding: 20px 100px 20px 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 24px;
+}
+
+br {
+    border-bottom: 1px solid #ccc;
 }
 /*#description::after {
     content: "";
@@ -69,3 +75,15 @@ h1 {
 #facts {
     text-align: center;
 }
+
+ul {
+    list-style-type: disc;
+}
+
+/*#facts::before {
+    content: "";
+    border-top: 1px solid #ccc;
+    width: 500px;
+    display: block;
+}
+*/
