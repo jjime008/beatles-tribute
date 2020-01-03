@@ -62,8 +62,8 @@ h1 {
     line-height: 24px;
 }
 
-br {
-    border-bottom: 1px solid #ccc;
+hr {
+    width: 50%;
 }
 /*#description::after {
     content: "";
