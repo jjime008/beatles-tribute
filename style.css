@@ -109,3 +109,13 @@ blockquote {
     width: 25%;
     height: auto;
 }
+
+/*footer*/
+
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
