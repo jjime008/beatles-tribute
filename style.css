@@ -98,6 +98,10 @@ blockquote {
     padding: 30px 150px 50px 150px;
 }
 
+#tribute-link {
+    margin-top: 60px;
+}
+
 #decorative {
     display: block;
     margin-left: auto;
