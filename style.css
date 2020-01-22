@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+
 /*fonts*/
 
 @font-face {
@@ -7,107 +16,77 @@
 
 h1 {
     font-family: bootle;
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 24px;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0;
 }
 
-/*h1 on top of img*/
 
-h1 {
-    position: absolute;
-    z-index: 1;
-    font-size: 128px;
-    padding-top: 246px;
-    padding-left: 62px;
-}
+/* Styles */
 
-#img-div {
-    position: relative;
-}
+
 
 /*image*/
 
-#image {
-    display: block;
-    margin-left: 160px;
-}
-
-#img-div {
-    background: #ccc;
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
 }
 
 #img-caption {
     background: white;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc;
 }
 
-/*main info*/
+
+/* Main Info */
 
 #tribute-info {
-    padding-left: 100px;
-    padding-right: 100px; 
-    text-align: center;
-}
-
-#description, #facts {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /*line-height: 24px;*/
-}
-
-hr {
-    width: 50%;
+    text-align: left;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
 }
 
 h2 {
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 ul {
     list-style-type: disc;
-    /*line-height: 24px;*/
-    text-align: justify;
-    padding-left: 110px;
-    padding-right: 110px;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 li {
-    margin: 16px 0;
+    margin: 1rem 0;
 }
 
-/*decorative image*/
+
+/* Decorative Image */
 
 blockquote {
-    display: block;
     font-style: italic;
-    text-align: left;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 30px 150px 50px 150px;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 #tribute-link {
-    margin-top: 60px;
-}
-
-#decorative {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    height: auto;
+    margin-top: 2.5rem;
 }
 
 /*footer*/
