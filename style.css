@@ -125,6 +125,11 @@ footer {
         margin-top: 7.8rem;
         margin-left: 2.6rem;
     }
+
+    #tribute-info {
+        text-align: justify;
+        padding: 0 5.5rem;
+    }
 }
 
 @media (min-width: 960px) {
@@ -133,7 +138,12 @@ footer {
         margin-top: 10.8rem;
         margin-left: 3.6rem;
     }
+
+    #tribute-info {
+        text-align: center;
+    }
 }
+
 
 @media (min-width: 1300px) {
     h1 {
@@ -141,3 +151,5 @@ footer {
         margin-top: 15.8rem;
         margin-left: 3.6rem;
     }
+    
+}
