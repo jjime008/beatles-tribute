@@ -151,5 +151,9 @@ footer {
         margin-top: 15.8rem;
         margin-left: 3.6rem;
     }
+
+    hr {
+        width: 50%;
+    }
     
 }
