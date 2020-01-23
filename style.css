@@ -21,16 +21,13 @@ h1 {
     padding-bottom: 3rem;
 }
 
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2rem;
     text-align: center;
     margin: 0;
 }
-
-
-/* Styles */
-
 
 
 /*image*/
@@ -107,3 +104,28 @@ footer {
     padding-bottom: 10px;
     margin-top: 25px;
 }
+
+/* Media Query */
+
+@media (min-width: 640px) {
+    h1 {
+        position: absolute;
+        margin-top: 7.8rem;
+        margin-left: 2.6rem;
+    }
+}
+
+@media (min-width: 950px) {
+    h1 {
+        font-size: 5rem;
+        margin-top: 10.8rem;
+        margin-left: 3.6rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    h1 {
+        font-size: 8rem;
+        margin-top: 15.8rem;
+        margin-left: 3.6rem;
+    }
