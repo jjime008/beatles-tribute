@@ -155,5 +155,9 @@ footer {
     hr {
         width: 50%;
     }
+
+    .list {
+        padding: 2rem 5rem 0;
+    }
     
 }
