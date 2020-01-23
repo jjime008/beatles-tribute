@@ -35,6 +35,10 @@ body {
 
 /*image*/
 
+figure {
+    text-align: right;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -48,6 +52,11 @@ img {
     padding-bottom: 2rem;
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+#img-div {
+    background: #ccc;
 }
 
 
@@ -77,7 +86,7 @@ li {
 }
 
 
-/* Decorative Image */
+/* blockqoute */
 
 blockquote {
     font-style: italic;
